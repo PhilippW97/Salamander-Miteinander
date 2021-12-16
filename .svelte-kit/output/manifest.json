@@ -1,0 +1,126 @@
+{
+  ".svelte-kit/build/runtime/internal/start.js": {
+    "file": "start-edf118e6.js",
+    "src": ".svelte-kit/build/runtime/internal/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-dbb812ab.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/build/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/scoreboard/index.svelte",
+      "src/routes/Game2.svelte",
+      "src/routes/login/index.svelte",
+      "src/routes/todos/index.svelte",
+      "src/routes/game/index.svelte"
+    ],
+    "css": [
+      "assets/start-61d1577b.css"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-9d307313.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dbb812ab.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-4fd51ecb.css"
+    ],
+    "assets": [
+      "assets/profpic-2c055d2e.jpg",
+      "assets/fira-mono-cyrillic-ext-400-normal-b3140dd3.woff2",
+      "assets/fira-mono-all-400-normal-0d19eb5d.woff",
+      "assets/fira-mono-cyrillic-400-normal-046b609f.woff2",
+      "assets/fira-mono-greek-ext-400-normal-8659ae46.woff2",
+      "assets/fira-mono-greek-400-normal-1f8b3a07.woff2",
+      "assets/fira-mono-latin-ext-400-normal-b6331a25.woff2",
+      "assets/fira-mono-latin-400-normal-a2f9dbe8.woff2"
+    ]
+  },
+  ".svelte-kit/build/components/error.svelte": {
+    "file": "error.svelte-ccbf5573.js",
+    "src": ".svelte-kit/build/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dbb812ab.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-08573f32.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dbb812ab.js"
+    ]
+  },
+  "src/routes/scoreboard/index.svelte": {
+    "file": "pages/scoreboard/index.svelte-669ee55a.js",
+    "src": "src/routes/scoreboard/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dbb812ab.js"
+    ],
+    "css": [
+      "assets/pages/scoreboard/index.svelte-a6cbc5e9.css"
+    ]
+  },
+  "src/routes/Game2.svelte": {
+    "file": "pages/Game2.svelte-13d0ff34.js",
+    "src": "src/routes/Game2.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dbb812ab.js"
+    ],
+    "css": [
+      "assets/pages/Game2.svelte-9705ade4.css"
+    ]
+  },
+  "src/routes/login/index.svelte": {
+    "file": "pages/login/index.svelte-6296f449.js",
+    "src": "src/routes/login/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dbb812ab.js"
+    ],
+    "css": [
+      "assets/pages/login/index.svelte-33749e63.css"
+    ]
+  },
+  "src/routes/todos/index.svelte": {
+    "file": "pages/todos/index.svelte-ade70b7a.js",
+    "src": "src/routes/todos/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dbb812ab.js"
+    ],
+    "css": [
+      "assets/pages/todos/index.svelte-784042c1.css"
+    ]
+  },
+  "src/routes/game/index.svelte": {
+    "file": "pages/game/index.svelte-055e55b8.js",
+    "src": "src/routes/game/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dbb812ab.js"
+    ],
+    "css": [
+      "assets/pages/game/index.svelte-33ab4645.css"
+    ]
+  },
+  "_vendor-dbb812ab.js": {
+    "file": "chunks/vendor-dbb812ab.js"
+  }
+}

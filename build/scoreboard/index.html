@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- <script>
+			if (global === undefined) {
+				var global = window;
+			}
+		</script> -->
+
+		
+
+		
+
+		<link rel="modulepreload" href="/_app/start-edf118e6.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-dbb812ab.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-9d307313.js">
+		<link rel="modulepreload" href="/_app/pages/scoreboard/index.svelte-669ee55a.js">
+		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-4fd51ecb.css">
+		<link rel="stylesheet" href="/_app/assets/pages/scoreboard/index.svelte-a6cbc5e9.css">
+
+		<script type="module">
+			import { start } from "/_app/start-edf118e6.js";
+			start({
+				target: document.body,
+				paths: {"base":"","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/_app/pages/__layout.svelte-9d307313.js"),
+						import("/_app/pages/scoreboard/index.svelte-669ee55a.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "\u002Fscoreboard",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<header class="svelte-1717g60"><div class="corner svelte-1717g60"></div>
+
+	<nav class="svelte-1717g60"><ul class="svelte-1717g60"><li class="svelte-1717g60"><a sveltekit:prefetch href="/game" class="svelte-1717g60">Game</a></li>
+			<li class="svelte-1717g60 active"><a sveltekit:prefetch href="/scoreboard" class="svelte-1717g60">Scoreboard</a></li>
+			<li class="svelte-1717g60"><a sveltekit:prefetch href="/login" class="svelte-1717g60">Login</a></li></ul></nav>
+
+	<div class="corner svelte-1717g60"><h2 id="player" class="svelte-1717g60">Spieler123</h2>
+		<img id="profpic" src="/_app/assets/profpic-2c055d2e.jpg" alt="Profile" class="svelte-1717g60"></div>
+</header>
+
+<main class="svelte-7j2i6y">
+<main><h1>Bestenliste</h1>
+
+	<table id="scores" class="svelte-8iui5f"><tr class="svelte-8iui5f"><th class="svelte-8iui5f">Nickname</th>
+			<th class="svelte-8iui5f">Score</th>
+			<th class="svelte-8iui5f">Date</th></tr>
+		<tr class="svelte-8iui5f"><td class="svelte-8iui5f">Max Mustermann</td>
+			<td class="svelte-8iui5f">100.000</td>
+			<td class="svelte-8iui5f">09.12.2021</td></tr></table>
+</main></main>
+
+<footer class="svelte-7j2i6y"><p>visit <a href="https://git.it.hs-heilbronn.de/it/courses/seb/cc1/ws21/demoproject123" class="svelte-7j2i6y">git.it.hs-heilbronn.de</a> to learn more about Salamander Miteinander
+	</p>
+</footer>
+
+
+
+			
+		</div>
+	</body>
+</html>

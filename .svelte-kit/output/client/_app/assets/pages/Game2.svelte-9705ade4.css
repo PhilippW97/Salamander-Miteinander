@@ -1,0 +1,1 @@
+body.svelte-1ac9b3a{height:50vh;width:50vw;display:flex;justify-content:center;align-items:center;margin:0;background-color:#000}#game-board.svelte-1ac9b3a{background-color:#ccc;width:50vmin;height:50vmin;display:grid;grid-template-rows:repeat(21,1fr);grid-template-columns:repeat(21,1fr)}
